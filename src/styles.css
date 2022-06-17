@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+form label {
+  margin: 8px 0;
+}
+
+form input {
+  all: unset;
+  border: 0.7px solid black;
+  border-radius: 20px;
+  height: 3rem;
+  width: 20rem;
+  margin-top: 4px;
+  padding: 0 8px;
+  cursor: text;
+}
+
+form button {
+  all: unset;
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+  background-color: #d59e47;
+  height: 3rem;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+
+  transition: all 0.5s;
+}
+
+form button:hover {
+  background-color: #e1780f;
+}
+
+form p {
+  font-size: 14px;
+  color: red;
+}
